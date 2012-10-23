@@ -6,19 +6,23 @@
 //  Copyright (c) 2012 Guillermo Gonzalez. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <CoreData/CoreData.h>
+#import "TGRManagedObject.h"
 
 @class TGRTweet;
 
-@interface TGRTwitterUser : NSManagedObject
+@interface TGRTwitterUser : TGRManagedObject
 
-@property (nonatomic, retain) NSString * identifier;
+@property (nonatomic, retain) NSNumber * identifier;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * screenName;
 @property (nonatomic, retain) NSString * imageLink;
 @property (nonatomic, retain) NSSet *tweets;
 @property (nonatomic, retain) NSSet *retweets;
+
++ (NSFetchRequest *)fetchRequestForTwitterUserWithIdentifier:(NSNumber *)identifier;
+
++ (id)twitterUserWithIdentifier:(NSNumber *)identifier inManagedObjectContext:(NSManagedObjectContext *)context;
+
 @end
 
 @interface TGRTwitterUser (CoreDataGeneratedAccessors)

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991DAD29163448B900C21CA5 /* TGRTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DAD28163448B900C21CA5 /* TGRTimeline.m */; };
+		99AC13B5163525F900D8282B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AC13B4163525F900D8282B /* Social.framework */; };
+		99AC13B9163565F600D8282B /* TGRManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AC13B8163565F600D8282B /* TGRManagedObject.m */; };
 		99F91003162E934200AB71FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F91002162E934200AB71FE /* UIKit.framework */; };
 		99F91005162E934200AB71FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F91004162E934200AB71FE /* Foundation.framework */; };
 		99F91007162E934200AB71FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F91006162E934200AB71FE /* CoreGraphics.framework */; };
@@ -18,7 +21,6 @@
 		99F91019162E934200AB71FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F91018162E934200AB71FE /* Default-568h@2x.png */; };
 		99F9101C162E934200AB71FE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F9101A162E934200AB71FE /* MainStoryboard.storyboard */; };
 		99F91029162E938C00AB71FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F91028162E938C00AB71FE /* CoreData.framework */; };
-		99F9102B162E939400AB71FE /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F9102A162E939400AB71FE /* Twitter.framework */; };
 		99F9102D162E939E00AB71FE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F9102C162E939E00AB71FE /* Accounts.framework */; };
 		99F91030162E93E800AB71FE /* Twitter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99F9102E162E93E800AB71FE /* Twitter.xcdatamodeld */; };
 		99F91033162E975800AB71FE /* TGRTwitterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F91032162E975800AB71FE /* TGRTwitterUser.m */; };
@@ -26,6 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		991DAD27163448B900C21CA5 /* TGRTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRTimeline.h; sourceTree = "<group>"; };
+		991DAD28163448B900C21CA5 /* TGRTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRTimeline.m; sourceTree = "<group>"; };
+		99AC13B4163525F900D8282B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		99AC13B7163565F600D8282B /* TGRManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRManagedObject.h; sourceTree = "<group>"; };
+		99AC13B8163565F600D8282B /* TGRManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRManagedObject.m; sourceTree = "<group>"; };
 		99F90FFE162E934200AB71FE /* TwitterTimeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterTimeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F91002162E934200AB71FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99F91004162E934200AB71FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,7 +48,6 @@
 		99F91018162E934200AB71FE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		99F9101B162E934200AB71FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		99F91028162E938C00AB71FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		99F9102A162E939400AB71FE /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		99F9102C162E939E00AB71FE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		99F9102F162E93E800AB71FE /* Twitter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Twitter.xcdatamodel; sourceTree = "<group>"; };
 		99F91031162E975800AB71FE /* TGRTwitterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRTwitterUser.h; sourceTree = "<group>"; };
@@ -55,8 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99AC13B5163525F900D8282B /* Social.framework in Frameworks */,
 				99F9102D162E939E00AB71FE /* Accounts.framework in Frameworks */,
-				99F9102B162E939400AB71FE /* Twitter.framework in Frameworks */,
 				99F91029162E938C00AB71FE /* CoreData.framework in Frameworks */,
 				99F91003162E934200AB71FE /* UIKit.framework in Frameworks */,
 				99F91005162E934200AB71FE /* Foundation.framework in Frameworks */,
@@ -87,8 +93,8 @@
 		99F91001162E934200AB71FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99AC13B4163525F900D8282B /* Social.framework */,
 				99F9102C162E939E00AB71FE /* Accounts.framework */,
-				99F9102A162E939400AB71FE /* Twitter.framework */,
 				99F91028162E938C00AB71FE /* CoreData.framework */,
 				99F91002162E934200AB71FE /* UIKit.framework */,
 				99F91004162E934200AB71FE /* Foundation.framework */,
@@ -104,10 +110,14 @@
 				99F91012162E934200AB71FE /* TGRAppDelegate.m */,
 				99F9101A162E934200AB71FE /* MainStoryboard.storyboard */,
 				99F9102E162E93E800AB71FE /* Twitter.xcdatamodeld */,
+				99AC13B7163565F600D8282B /* TGRManagedObject.h */,
+				99AC13B8163565F600D8282B /* TGRManagedObject.m */,
 				99F91034162E975800AB71FE /* TGRTweet.h */,
 				99F91035162E975800AB71FE /* TGRTweet.m */,
 				99F91031162E975800AB71FE /* TGRTwitterUser.h */,
 				99F91032162E975800AB71FE /* TGRTwitterUser.m */,
+				991DAD27163448B900C21CA5 /* TGRTimeline.h */,
+				991DAD28163448B900C21CA5 /* TGRTimeline.m */,
 				99F91009162E934200AB71FE /* Supporting Files */,
 			);
 			path = TwitterTimeline;
@@ -199,6 +209,8 @@
 				99F91030162E93E800AB71FE /* Twitter.xcdatamodeld in Sources */,
 				99F91033162E975800AB71FE /* TGRTwitterUser.m in Sources */,
 				99F91036162E975800AB71FE /* TGRTweet.m in Sources */,
+				991DAD29163448B900C21CA5 /* TGRTimeline.m in Sources */,
+				99AC13B9163565F600D8282B /* TGRManagedObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +327,7 @@
 				99F91027162E934200AB71FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

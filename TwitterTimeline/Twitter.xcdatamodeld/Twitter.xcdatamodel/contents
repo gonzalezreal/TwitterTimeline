@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="TGRTweet" representedClassName="TGRTweet" syncable="YES">
-        <attribute name="identifier" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 64" indexed="YES" syncable="YES"/>
         <attribute name="publicationDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="retweetedBy" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TGRTwitterUser" inverseName="retweets" inverseEntity="TGRTwitterUser" syncable="YES"/>
         <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TGRTwitterUser" inverseName="tweets" inverseEntity="TGRTwitterUser" syncable="YES"/>
     </entity>
     <entity name="TGRTwitterUser" representedClassName="TGRTwitterUser" syncable="YES">
-        <attribute name="identifier" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 64" indexed="YES" syncable="YES"/>
         <attribute name="imageLink" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="screenName" optional="YES" attributeType="String" syncable="YES"/>
@@ -16,7 +16,7 @@
         <relationship name="tweets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TGRTweet" inverseName="user" inverseEntity="TGRTweet" syncable="YES"/>
     </entity>
     <elements>
-        <element name="TGRTwitterUser" positionX="135" positionY="191" width="128" height="133"/>
         <element name="TGRTweet" positionX="-63" positionY="206" width="128" height="118"/>
+        <element name="TGRTwitterUser" positionX="135" positionY="191" width="128" height="133"/>
     </elements>
 </model>
