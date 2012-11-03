@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990C4FA21636990F00EEE4F5 /* TGRFetchedResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C4FA11636990F00EEE4F5 /* TGRFetchedResultsTableViewController.m */; };
+		990C4FA616369A7500EEE4F5 /* TGRTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C4FA516369A7500EEE4F5 /* TGRTimelineViewController.m */; };
+		990C4FAD16369CBE00EEE4F5 /* ACAccountStore+Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C4FAC16369CBE00EEE4F5 /* ACAccountStore+Twitter.m */; };
+		990C4FBC1636CD1000EEE4F5 /* TGRTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 990C4FBB1636CD0F00EEE4F5 /* TGRTweetCell.m */; };
 		991DAD29163448B900C21CA5 /* TGRTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DAD28163448B900C21CA5 /* TGRTimeline.m */; };
+		996D2C92163C443200FCC30C /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D2C80163C443200FCC30C /* SDImageCache.m */; };
+		996D2C93163C443200FCC30C /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D2C84163C443200FCC30C /* SDWebImageDecoder.m */; };
+		996D2C94163C443200FCC30C /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D2C86163C443200FCC30C /* SDWebImageDownloader.m */; };
+		996D2C95163C443200FCC30C /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D2C89163C443200FCC30C /* SDWebImageManager.m */; };
+		996D2C96163C443200FCC30C /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D2C8C163C443200FCC30C /* SDWebImagePrefetcher.m */; };
+		996D2C97163C443200FCC30C /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D2C8E163C443200FCC30C /* UIButton+WebCache.m */; };
+		996D2C98163C443200FCC30C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D2C90163C443200FCC30C /* UIImageView+WebCache.m */; };
+		996D2C9B163C445C00FCC30C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996D2C9A163C445C00FCC30C /* ImageIO.framework */; };
+		996D2C9E163C44BA00FCC30C /* TGRProfileImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D2C9D163C44BA00FCC30C /* TGRProfileImageView.m */; };
 		99AC13B5163525F900D8282B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AC13B4163525F900D8282B /* Social.framework */; };
 		99AC13B9163565F600D8282B /* TGRManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AC13B8163565F600D8282B /* TGRManagedObject.m */; };
 		99F91003162E934200AB71FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F91002162E934200AB71FE /* UIKit.framework */; };
@@ -28,8 +41,37 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		990C4FA01636990F00EEE4F5 /* TGRFetchedResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRFetchedResultsTableViewController.h; sourceTree = "<group>"; };
+		990C4FA11636990F00EEE4F5 /* TGRFetchedResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRFetchedResultsTableViewController.m; sourceTree = "<group>"; };
+		990C4FA416369A7500EEE4F5 /* TGRTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRTimelineViewController.h; sourceTree = "<group>"; };
+		990C4FA516369A7500EEE4F5 /* TGRTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRTimelineViewController.m; sourceTree = "<group>"; };
+		990C4FAB16369CBE00EEE4F5 /* ACAccountStore+Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ACAccountStore+Twitter.h"; sourceTree = "<group>"; };
+		990C4FAC16369CBE00EEE4F5 /* ACAccountStore+Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ACAccountStore+Twitter.m"; sourceTree = "<group>"; };
+		990C4FBA1636CD0F00EEE4F5 /* TGRTweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRTweetCell.h; sourceTree = "<group>"; };
+		990C4FBB1636CD0F00EEE4F5 /* TGRTweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRTweetCell.m; sourceTree = "<group>"; };
 		991DAD27163448B900C21CA5 /* TGRTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRTimeline.h; sourceTree = "<group>"; };
 		991DAD28163448B900C21CA5 /* TGRTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRTimeline.m; sourceTree = "<group>"; };
+		996D2C7F163C443200FCC30C /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		996D2C80163C443200FCC30C /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		996D2C81163C443200FCC30C /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		996D2C82163C443200FCC30C /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		996D2C83163C443200FCC30C /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		996D2C84163C443200FCC30C /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		996D2C85163C443200FCC30C /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		996D2C86163C443200FCC30C /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		996D2C87163C443200FCC30C /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		996D2C88163C443200FCC30C /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		996D2C89163C443200FCC30C /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		996D2C8A163C443200FCC30C /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		996D2C8B163C443200FCC30C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		996D2C8C163C443200FCC30C /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		996D2C8D163C443200FCC30C /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		996D2C8E163C443200FCC30C /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		996D2C8F163C443200FCC30C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		996D2C90163C443200FCC30C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		996D2C9A163C445C00FCC30C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		996D2C9C163C44BA00FCC30C /* TGRProfileImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRProfileImageView.h; sourceTree = "<group>"; };
+		996D2C9D163C44BA00FCC30C /* TGRProfileImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRProfileImageView.m; sourceTree = "<group>"; };
 		99AC13B4163525F900D8282B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		99AC13B7163565F600D8282B /* TGRManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRManagedObject.h; sourceTree = "<group>"; };
 		99AC13B8163565F600D8282B /* TGRManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRManagedObject.m; sourceTree = "<group>"; };
@@ -61,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996D2C9B163C445C00FCC30C /* ImageIO.framework in Frameworks */,
 				99AC13B5163525F900D8282B /* Social.framework in Frameworks */,
 				99F9102D162E939E00AB71FE /* Accounts.framework in Frameworks */,
 				99F91029162E938C00AB71FE /* CoreData.framework in Frameworks */,
@@ -73,9 +116,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		996D2C7C163C443200FCC30C /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				996D2C7F163C443200FCC30C /* SDImageCache.h */,
+				996D2C80163C443200FCC30C /* SDImageCache.m */,
+				996D2C81163C443200FCC30C /* SDImageCacheDelegate.h */,
+				996D2C82163C443200FCC30C /* SDWebImageCompat.h */,
+				996D2C83163C443200FCC30C /* SDWebImageDecoder.h */,
+				996D2C84163C443200FCC30C /* SDWebImageDecoder.m */,
+				996D2C85163C443200FCC30C /* SDWebImageDownloader.h */,
+				996D2C86163C443200FCC30C /* SDWebImageDownloader.m */,
+				996D2C87163C443200FCC30C /* SDWebImageDownloaderDelegate.h */,
+				996D2C88163C443200FCC30C /* SDWebImageManager.h */,
+				996D2C89163C443200FCC30C /* SDWebImageManager.m */,
+				996D2C8A163C443200FCC30C /* SDWebImageManagerDelegate.h */,
+				996D2C8B163C443200FCC30C /* SDWebImagePrefetcher.h */,
+				996D2C8C163C443200FCC30C /* SDWebImagePrefetcher.m */,
+				996D2C8D163C443200FCC30C /* UIButton+WebCache.h */,
+				996D2C8E163C443200FCC30C /* UIButton+WebCache.m */,
+				996D2C8F163C443200FCC30C /* UIImageView+WebCache.h */,
+				996D2C90163C443200FCC30C /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
 		99F90FF3162E934200AB71FE = {
 			isa = PBXGroup;
 			children = (
+				996D2C7C163C443200FCC30C /* SDWebImage */,
 				99F91008162E934200AB71FE /* TwitterTimeline */,
 				99F91001162E934200AB71FE /* Frameworks */,
 				99F90FFF162E934200AB71FE /* Products */,
@@ -93,6 +162,7 @@
 		99F91001162E934200AB71FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				996D2C9A163C445C00FCC30C /* ImageIO.framework */,
 				99AC13B4163525F900D8282B /* Social.framework */,
 				99F9102C162E939E00AB71FE /* Accounts.framework */,
 				99F91028162E938C00AB71FE /* CoreData.framework */,
@@ -118,6 +188,16 @@
 				99F91032162E975800AB71FE /* TGRTwitterUser.m */,
 				991DAD27163448B900C21CA5 /* TGRTimeline.h */,
 				991DAD28163448B900C21CA5 /* TGRTimeline.m */,
+				990C4FA01636990F00EEE4F5 /* TGRFetchedResultsTableViewController.h */,
+				990C4FA11636990F00EEE4F5 /* TGRFetchedResultsTableViewController.m */,
+				990C4FA416369A7500EEE4F5 /* TGRTimelineViewController.h */,
+				990C4FA516369A7500EEE4F5 /* TGRTimelineViewController.m */,
+				990C4FAB16369CBE00EEE4F5 /* ACAccountStore+Twitter.h */,
+				990C4FAC16369CBE00EEE4F5 /* ACAccountStore+Twitter.m */,
+				990C4FBA1636CD0F00EEE4F5 /* TGRTweetCell.h */,
+				990C4FBB1636CD0F00EEE4F5 /* TGRTweetCell.m */,
+				996D2C9C163C44BA00FCC30C /* TGRProfileImageView.h */,
+				996D2C9D163C44BA00FCC30C /* TGRProfileImageView.m */,
 				99F91009162E934200AB71FE /* Supporting Files */,
 			);
 			path = TwitterTimeline;
@@ -211,6 +291,18 @@
 				99F91036162E975800AB71FE /* TGRTweet.m in Sources */,
 				991DAD29163448B900C21CA5 /* TGRTimeline.m in Sources */,
 				99AC13B9163565F600D8282B /* TGRManagedObject.m in Sources */,
+				990C4FA21636990F00EEE4F5 /* TGRFetchedResultsTableViewController.m in Sources */,
+				990C4FA616369A7500EEE4F5 /* TGRTimelineViewController.m in Sources */,
+				990C4FAD16369CBE00EEE4F5 /* ACAccountStore+Twitter.m in Sources */,
+				990C4FBC1636CD1000EEE4F5 /* TGRTweetCell.m in Sources */,
+				996D2C92163C443200FCC30C /* SDImageCache.m in Sources */,
+				996D2C93163C443200FCC30C /* SDWebImageDecoder.m in Sources */,
+				996D2C94163C443200FCC30C /* SDWebImageDownloader.m in Sources */,
+				996D2C95163C443200FCC30C /* SDWebImageManager.m in Sources */,
+				996D2C96163C443200FCC30C /* SDWebImagePrefetcher.m in Sources */,
+				996D2C97163C443200FCC30C /* UIButton+WebCache.m in Sources */,
+				996D2C98163C443200FCC30C /* UIImageView+WebCache.m in Sources */,
+				996D2C9E163C44BA00FCC30C /* TGRProfileImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +337,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -273,6 +366,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

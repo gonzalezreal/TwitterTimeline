@@ -11,15 +11,45 @@
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="4">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="YLs-IE-gwm" kind="relationship" relationship="rootViewController" id="1qf-Jb-X0p"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1" y="64"/>
         </scene>
+        <!--Timeline View Controller-->
+        <scene sceneID="O3v-dd-ygP">
+            <objects>
+                <tableViewController id="YLs-IE-gwm" customClass="TGRTimelineViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qEo-id-deT">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="YLs-IE-gwm" id="QKe-dQ-3bD"/>
+                            <outlet property="delegate" destination="YLs-IE-gwm" id="BtR-JM-4RV"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Eoa-He-mZh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4yj-rb-BYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476" y="64"/>
+        </scene>
     </scenes>
+    <classes>
+        <class className="TGRFetchedResultsTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TGRFetchedResultsTableViewController.h"/>
+        </class>
+        <class className="TGRTimelineViewController" superclassName="TGRFetchedResultsTableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TGRTimelineViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
